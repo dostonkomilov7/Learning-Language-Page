@@ -1,0 +1,226 @@
+nav{
+    width: 100%;
+    padding: 0px 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+ul li{
+    list-style-type: none;
+}
+nav button{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+.startp{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro{
+    width: 600px;
+    height: 470px;
+}
+.intro h1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 20px;
+    color: rgba(143, 149, 165, 1);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.intro button{
+    background-color: #263238;
+    color: white;
+    padding: 30px 100px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.image img{
+    width: 640px;
+    height: 640px;
+}
+.skills h2{
+    width: 90%;
+    text-align: center;
+    font-size: 40px;
+    padding: 70px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills{
+    text-align: center;
+}
+.fourCard{
+    width: 95%;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.skills p{
+    color: #8F95A5;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 20px;
+}
+.fourCard .content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 30px;
+}
+.fourCard button{
+    background-color: #263238;
+    color: white;
+    padding: 20px 70px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+    margin-right: 130px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.speaking{
+    height: auto;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+    grid-row: 1/ span 2;
+}
+.w_r{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    align-items: center;
+    height: 520px;
+}
+.w_r img{
+    width: 300px;
+    height: 200px;
+}
+.listening{
+    background-color: #F5F5F5;
+    grid-column: 2/span 2;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.listening h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 245px;
+    font-size: 30px;
+}
+.about{
+    padding-top: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.about h2{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info ul{
+    display: flex;
+    gap: 90px;
+    margin-top: 25px;
+}
+.pricing{
+    text-align:  center;
+}
+.threebox{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 30%;
+}
+.box2{
+    width: 30%;
+    margin: 0 auto;
+}
+.box3{
+    width: 30%;
+    margin: 0 auto;
+}
+.threebox img{
+    width: 310px;
+    height: 310px;
+}
+.box1 button{
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 40px;
+    font-size: 25px;
+}
+.two_btn{
+    background-color: #EEEEEE;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image img{
+    width: 500px;
+}
+.notify h2{
+    font-size: 50px;
+}.notify p{
+    margin-right: 150px;
+}
+.notify input{
+    padding: 20px 100px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    border-color: #8F95A5;
+    border-width: 1px;
+    font-size: 20px;
+}
+.notify button{
+    padding: 25px 70px;
+    background-color: #263238;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+footer{
+    width: 90%;
+    border-width: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: rgba(143, 149, 165, 1);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
